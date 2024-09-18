@@ -2,13 +2,13 @@ import { getAuth } from "firebase/auth";
 import { initializeApp } from "firebase/app";
 import { collection, getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH,
-  projectId: process.env.ID,
-  storageBucket: process.env.STORAGE,
-  messagingSenderId: process.env.SID,
-  appId: process.env.APP_ID,
-  measurementId: process.env.M_ID
+  apiKey: "AIzaSyAccVwTwWPRmapggCsW9vMSjB3MdGCTTxs",
+  authDomain: "meet-up-ae75a.firebaseapp.com",
+  projectId: "meet-up-ae75a",
+  storageBucket: "meet-up-ae75a.appspot.com",
+  messagingSenderId: "804446576816",
+  appId: "1:804446576816:web:77578850113b6d7d871b75",
+  measurementId: "G-YPSNV6WN0K"
 };
 
 const app = initializeApp(firebaseConfig);
